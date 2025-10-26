@@ -150,6 +150,24 @@ Each route includes authentication and error handling middleware as needed.
   - All uploads (course images, lecture content) stored on Cloudinary
   - Nodemailer used for transactional email (confirmation, password reset, etc.)
 
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="./screenshots/homepage.png" alt="Homepage" width="45%" />
+  <img src="./screenshots/Admin dashboard.png" alt="Dashboard" width="45%" />
+</p>
+
+<p align="center">
+  <img src="./screenshots/User profile.png" alt="Course Page" width="45%" />
+  <img src="./screenshots/Course Lectures.png" alt="Payment Page" width="45%" />
+</p>
+
+<p align="center">
+  <img src="./screenshots/Courses.png" alt="Course Page" width="45%" />
+</p>
+
+
 🤝 Contributing
   - Fork this repo
   - Create a new branch: git checkout -b feature/YourFeature
