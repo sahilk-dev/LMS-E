@@ -154,7 +154,7 @@ Each route includes authentication and error handling middleware as needed.
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="./screenshots/homepage.png" alt="Homepage" width="45%" />
+  <img src="./screenshots/HomePage.png" alt="Homepage" width="45%" />
   <img src="./screenshots/Admin dashboard.png" alt="Dashboard" width="45%" />
 </p>
 
