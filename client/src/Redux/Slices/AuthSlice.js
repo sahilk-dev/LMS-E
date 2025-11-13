@@ -6,9 +6,16 @@ import toast from 'react-hot-toast';
 import axiosInstance from "../../Helpers/axiosInstance"
 
 const initialState = {
-    isLoggedIn: localStorage.getItem('isLoggedIn') || false,
+    isLoggedIn: localStorage.getItem('isLoggedIn') === 'true',
     role: localStorage.getItem('role') || "",
-    data: localStorage.getItem('data') !== null ? JSON.parse(localStorage.getItem('data')) : {}
+    data: (() => {
+        try {
+            const storedData = localStorage.getItem('data');
+            return storedData && storedData !== 'undefined' ? JSON.parse(storedData) : {};
+        } catch (error) {
+            return {};
+        }
+    })()
 };
 
 
