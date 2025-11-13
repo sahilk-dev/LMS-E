@@ -8,12 +8,6 @@ dotenv.config();
 
 const PORT = process.env.PORT || 5014;
 
-console.log("Cloudinary ENV Variables:", {
-    cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-    api_key: process.env.CLOUDINARY_API_KEY,
-    api_secret: process.env.CLOUDINARY_API_SECRET
-});
-
 
 // Cloudinary configuration
 cloudinary.v2.config({
@@ -34,5 +28,5 @@ app.get('/test', (req, res) => {
 
 app.listen(PORT, async () => {
     await connectionToDB();
-    console.log(`App is running at http:localhost:${PORT}`); 
+    console.log(`App is running at http://localhost:${PORT}`); 
 });
