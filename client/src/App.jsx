@@ -18,7 +18,7 @@ import EditProfile from './Pages/User/EditProfile';
 import Checkout from './Pages/Payment/Checkout';
 import CheckoutSuccess from './Pages/Payment/CheckoutSuccess';
 import CheckoutFailure from './Pages/Payment/CheckoutFailure';
-import Displaylectures from './Pages/Dashboard/displayLectures';
+import Displaylectures from './Pages/Dashboard/Displaylectures';
 import AddLecture from './Pages/Dashboard/Addlecture';
 import AdminDsahboard from './Pages/Dashboard/AdminDashboard';
 
